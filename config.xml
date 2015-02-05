@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>Shoutbox</name>
+	<description>Ajax technológiájú üzenőfal modul.</description>
+	<uri_segment>ajax_shoutbox</uri_segment>
+
+    <!-- Has this module an admin panel ? -->
+    <has_admin>true</has_admin>
+
+    <!--
+        Group who can access to the admin panel of the module
+        Groups can be :
+        - super-admins
+        - admins
+        - editors
+    -->
+    <access_group>admins</access_group>
+
+    <!-- Module's Database installation script. -->
+    <database script="database.xml"></database>
+
+</module>
